@@ -23,7 +23,7 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING
       },
     active_status: {
-        type: DataTypes.boolean
+        type: DataTypes.TINYINT
       },
     sub_admin:{
         type:DataTypes.STRING

@@ -1,5 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
-    const VideoPrivacy = sequelize.define("video_info", {
+    const VideoPrivacy = sequelize.define("video_privacy", {
     video_id: {
         type: DataTypes.STRING
       },

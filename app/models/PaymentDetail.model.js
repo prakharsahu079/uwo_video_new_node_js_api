@@ -7,7 +7,7 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING
       },
     orderd_id: {
-        type: DataTypes.boolean
+        type: DataTypes.TINYINT
       },
 
     payment_date:{

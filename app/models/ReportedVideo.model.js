@@ -4,7 +4,7 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING
       },
     report_id: {
-        type: DataTypes.NUMBER
+        type: DataTypes.INTEGER
       },
     report_reason_tittle: {
         type: DataTypes.STRING

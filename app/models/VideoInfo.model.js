@@ -7,16 +7,16 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING
       },
     video_view_count: {
-        type: DataTypes.NUMBER
+        type: DataTypes.INTEGER
       },
     like_count: {
-        type: DataTypes.NUMBER
+        type: DataTypes.INTEGER
       },
     sub_admin: {
         type: DataTypes.STRING
       },
     share_count: {
-        type: DataTypes.NUMBER
+        type: DataTypes.INTEGER
       },
     catagory: {
         type: DataTypes.STRING

@@ -11,10 +11,10 @@ module.exports = (sequelize, DataTypes) => {
         type:DataTypes.STRING
     },
     catagory_Status:{
-        type:DataTypes.BOOLEAN
+        type:DataTypes.TINYINT
     },
     catagory_Proirty:{
-        type:DataTypes.NUMBER
+        type:DataTypes.INTEGER
     }
     });
   

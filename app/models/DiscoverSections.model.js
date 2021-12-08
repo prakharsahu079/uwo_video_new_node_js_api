@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
         type:DataTypes.STRING
     },
     active:{
-        type:DataTypes.BOOLEAN
+        type:DataTypes.TINYINT
     },
     proirty:{
         type:DataTypes.INTEGER

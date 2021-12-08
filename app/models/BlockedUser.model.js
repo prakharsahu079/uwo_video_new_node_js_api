@@ -4,7 +4,7 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING
       },
       blocked_status: {
-        type: DataTypes.boolean
+        type: DataTypes.TINYINT
       }
     });
   

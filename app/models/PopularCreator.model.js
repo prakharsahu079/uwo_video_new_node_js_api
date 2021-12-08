@@ -4,7 +4,7 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING
       },
     rank: {
-        type: DataTypes.NUMBER
+        type: DataTypes.INTEGER
       }
     });
   

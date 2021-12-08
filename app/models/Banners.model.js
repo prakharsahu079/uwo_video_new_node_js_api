@@ -10,7 +10,7 @@ module.exports = (sequelize, DataTypes) => {
         type:DataTypes.STRING
     },
     banner_active_status:{
-        type:DataTypes.BOOLEAN
+        type:DataTypes.TINYINT
     }
     });
   

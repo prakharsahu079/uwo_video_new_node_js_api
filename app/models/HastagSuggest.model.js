@@ -4,7 +4,7 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING
       },
     hastag_name: {
-        type: DataTypes.boolean
+        type: DataTypes.TINYINT
       },
 
     hastag_suggest_status:{

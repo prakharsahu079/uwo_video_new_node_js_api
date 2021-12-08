@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
         type:DataTypes.STRING
     },
     game_banner_flag:{
-        type:DataTypes.boolean
+        type:DataTypes.TINYINT
     }
     });
   

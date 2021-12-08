@@ -16,7 +16,7 @@ module.exports = (sequelize, DataTypes) => {
         type:DataTypes.STRING
     },
     read_Status:{
-        type:DataTypes.BOOLEAN
+        type:DataTypes.TINYINT
     }
     });
   

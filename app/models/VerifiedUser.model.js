@@ -4,7 +4,7 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.STRING
       },
      verification_info: {
-        type: DataTypes.boolean
+        type: DataTypes.TINYINT
       }
     });
   
